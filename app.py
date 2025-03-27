@@ -29,7 +29,7 @@ except ImportError:
 
 # Load environment variables
 HF_TOKEN = os.getenv("HF_TOKEN")
-groq_client = Groq(api_key="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")
+
 
 # Device setup
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
