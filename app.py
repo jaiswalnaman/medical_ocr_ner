@@ -299,7 +299,7 @@ For each page:
     # API endpoint and headers
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
-        "Authorization": "Bearer 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",  # Your API key
+        "Authorization": "API_KEY",  # Your API key
         "Content-Type": "application/json",
     }
 
